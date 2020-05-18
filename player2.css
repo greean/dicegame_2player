@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap');
+/* 
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+
+body {
+    background-image: url(img/grid.png);
+    font-family: 'Roboto', sans-serif;
+
+}
+* {box-sizing: border-box;}
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: lime;
+    text-align: center;
+}
+
+h3 {
+    font-size: 200%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0, 100;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: darkgray;
+    box-shadow: linen;
+    flex: 1 1 1 48%;
+    box-sizing: border-box;
+    border: 2px darkslategrey;
+    width: 40%;
+    height: 200px;
+    /* align-self: center; */
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 48%;
+}
+
+#areaP1 {
+    background-color: crimson;
+}
+
+.input {
+    text-align: center;
+}
+
+button {
+    max-width: 150px;
+    align-self: center;
+    font-size: larger;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+p {
+    color: crimson;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 5%;
+    margin-top: 50px;
+}
